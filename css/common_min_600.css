@@ -1,0 +1,682 @@
+@charset "utf-8";
+
+@media (min-width:600px) {
+
+
+    section {
+        width: 100%;
+        height: auto;
+        background-color: #f6f6f6;
+        margin: 0 auto;
+    }
+
+    .released-game {
+        width: 95%;
+        height: 23%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .released-text {
+        width: 100%;
+        height: 30rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .released-text h1 {
+        color: #1c1121;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .released-text h1 span {
+        color: #e4a101;
+    }
+
+    .released-text p {
+        color: #545454;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 1rem 0 2rem 0;
+        width: 80%;
+    }
+
+    .released-text img {
+        width: 268px;
+        height: 11px;
+    }
+
+    .call-of-duty {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        box-shadow: 5px 5px 5px rgb(228, 228, 228);
+        background-color: #fff;
+        color: #413b43;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+    }
+
+    .call-of-duty-box {
+        width: 55%;
+        height: 50rem;
+    }
+
+    .call-of-duty-box img[alt="callofduty-img"] {
+        width: 100%;
+        height: 100%;
+        padding: 7%;
+    }
+
+    .codb-box {
+        width: 45%;
+        height: 100%;
+    }
+
+    .call-rating {
+        width: 100%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .call-rating img {
+        width: 9rem;
+        height: 2.5rem;
+    }
+
+    .call-rating h2 {
+        font-size: 2rem;
+    }
+
+    .call-brush {
+        width: 100%;
+        height: 6rem;
+        padding: 5%;
+        position: relative;
+    }
+
+    .call-brush img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .call-brush h2 {
+        position: absolute;
+        top: 1rem;
+        left: 2.8rem;
+        color: #ffffff;
+        font-size: 2rem;
+    }
+
+    .call-brush h2 span {
+        color: #1c1121;
+    }
+
+    .call-table {
+        width: 100%;
+        height: 25rem;
+        padding: 5%;
+        font-size: 1.4rem;
+    }
+
+    .table_name {
+        font-weight: 900;
+        width: 100px;
+        height: 30px;
+    }
+
+    .table_section {
+        color: #494b4f;
+    }
+
+    .call-table p {
+        margin: 3% 0 0 0;
+    }
+
+    .call-of-duty button {
+        border: none;
+        background-color: #e4a101;
+        padding: 2rem 4rem;
+        margin: 0 0 0 5%;
+    }
+
+    .call-of-duty button a {
+        font-weight: 900;
+        color: #1e1623;
+    }
+
+    .duty-box {
+        width: 75%;
+        height: 80rem;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .duty-img {
+        width: 100%;
+        height: 25%;
+        margin: 2% 0;
+    }
+
+    .duty-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .just-for-gamers {
+        width: 100%;
+        height: 80rem;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .just-for-img {
+        display: none;
+    }
+
+    .just-text {
+        width: 80%;
+        height: 30%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .just-text img {
+        width: 268px;
+        height: 11px;
+    }
+
+    .just-text h1 {
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    .just-text span {
+        color: #e4a101;
+    }
+
+    .just-text p {
+        font-size: 1.6rem;
+        color: #cbcbcb;
+        padding: 5% 0;
+    }
+
+    .justbox {
+        width: 80%;
+        height: 15rem;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin: 2% 0;
+    }
+
+    .justbox-img {
+        width: 11rem;
+        height: 11rem;
+        background-color: #333240;
+        position: relative;
+    }
+
+    .justbox-img img[alt="icon-bg"] {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+    }
+
+    .justbox-img img[alt="gamer-icon1"] {
+        position: absolute;
+        top: 25px;
+        left: 35px;
+    }
+
+    .justbox-img img[alt="gamer-icon2"] {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .justbox-img img[alt="gamer-icon3"] {
+        position: absolute;
+        top: 30px;
+        left: 35px;
+    }
+
+    .justbox-text {
+        width: 80%;
+        height: 10rem;
+        margin: 1% 2%;
+    }
+
+    .justbox-text h3 {
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .justbox-text p {
+        font-size: 1.6rem;
+        color: #cbcbcb;
+        padding: 5% 0;
+    }
+
+    .just-featured-games {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    .just-featured-text {
+        width: 100%;
+        height: 30rem;
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        padding: 0 0 6% 0;
+    }
+
+    .just-featured-text img {
+        width: 268px;
+        height: 11px;
+    }
+
+    .just-featured-text h1 {
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+    }
+
+    .just-featured-text span {
+        color: #e4a101;
+    }
+
+    .just-featured-text p {
+        padding: 4%;
+        width: 100%;
+        font-size: 1.6rem;
+        color: #545454;
+    }
+
+    .just-featured-bbox {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .just-featured-box {
+        width: 40%;
+        height: auto;
+        margin: 2%;
+        position: relative;
+        background-color: #e4a101;
+    }
+
+    .just-featured-box img:hover {
+        opacity: 0.5;
+        transition: all 0.5s ease;
+    }
+
+    .just-featured-box img {
+        width: 100%;
+        height: 100%;
+        background-color: #e4a101;
+    }
+    
+    .thumb-blog {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        width: auto;
+        height: auto;
+        width: 60%;
+        height: 15%;
+        padding: 0 0 0 5%;
+    }
+
+    .thumb-blog h5 {
+        font-size: 2rem;
+        color: #fff;
+        padding: 5% 0;
+    }
+
+    .thumb-blog h5 span {
+        font-size: 2rem;
+        color: #e4a101;
+    }
+
+    .thumb-blog img {
+        width: 1rem;
+        height: 1rem;
+        display: inline;
+    }
+
+    .thumb-blog p {
+        font-size: 1.2rem;
+        display: inline;
+        color: #fff;
+    }
+
+    .worlds-meet-real {
+        width: 100%;
+        height: 100rem;
+        margin: 0 auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #worlds-meet-wrap {
+        width: 90%;
+        height: 100rem;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .worlds-meet-char {
+        width: 50%;
+        height: 50%;
+    }
+
+    .worlds-meet-char img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .worlds-meet-text {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .worlds-meet-text h1 {
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .worlds-meet-text h1 span {
+        color: #e4a101;
+    }
+
+    .worlds-meet-text p {
+        color: #cbcbcb;
+        font-size: 1.6rem;
+        height: 5rem;
+        line-height: 2rem;
+        margin: 2% 0;
+        width: 95%;
+    }
+
+    .worlds-meet-text button {
+        border: none;
+        background-color: #e4a101;
+        padding: 2rem 4rem;
+        margin: 5rem;
+        font-weight: 900;
+        color: #1c1121;
+    }
+
+    .gaming-products {
+        width: 100%;
+        height: auto;
+        background-color: #1C181E;
+    }
+
+    .products-items {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products-h3 {
+        width: 100%;
+        height: 30rem;
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products-h3 h3 {
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .products-h3 h3 span {
+        color: #e4a101;
+    }
+
+    .products-h3 p {
+        color: #cbcbcb;
+        font-size: 1.6rem;
+        height: 5rem;
+        line-height: 2.5rem;
+        margin: 2% 0;
+        width: 70%;
+    }
+
+    .goods {
+        width: 43%;
+        height: 50rem;
+        margin: 2% 2%;
+        display: flex;
+        flex-flow: column wrap;
+        position: relative;
+        box-shadow: 5px 5px 5px #1c1121;
+    }
+
+    .goods img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .goods button {
+        border: none;
+        background-color: #e4a101;
+        padding: 1rem 3rem;
+        position: absolute;
+        top: 65%;
+        left: 38%;
+    }
+
+    .goods button a {
+        color: #0a060c;
+        font-weight: 900;
+    }
+
+    .goods-naming {
+        width: 100%;
+        height: 14rem;
+        padding: 5%;
+        display: flex;
+        align-items: space-between;
+        flex-direction: column;
+    }
+
+    .goods-naming h3 {
+        font-size: 1.5rem;
+        padding: 5% 0;
+    }
+
+    .goods-naming h3 a {
+        color: #fff;
+    }
+
+    .price {
+        display: flex;
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .price h4 {
+        font-size: 1.6rem;
+        color: #e4a101;
+    }
+
+    .price img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        padding: 20%;
+        background-color: #1c1121;
+    }
+
+    .price img:hover {
+        background-color: #e4a101;
+        transition: all 0.5s ease;
+    }
+
+    .latest-news-article {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .latest-news-text {
+        width: 100%;
+        height: 30rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .latest-news-text h1 {
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+    }
+
+    .latest-news-text h1 span {
+        color: #e4a101;
+    }
+
+    .latest-news-text p {
+        font-size: 1.5rem;
+        color: #333240;
+        padding: 2% 0;
+        line-height: 2.5rem;
+        width: 80%;
+    }
+
+    .latest-news-text img {
+        width: 268px;
+        height: 11px;
+    }
+
+    .latest-news-img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .latest-news-games {
+        width: 45%;
+        height: 55rem;
+        margin: 2%;
+    }
+
+    .latest-news-games:nth-of-type(3) {
+        display: none;
+    }
+
+    .latest-news-games img {
+        width: 100%;
+    }
+
+    .game-name {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .game-name h3 {
+        font-size: 2rem;
+    }
+
+    .game-name h3 a {
+        color: #000;
+    }
+
+    .game-name h3 a:hover {
+        color: #e4a101;
+        transition: all 0.5s ease;
+    }
+
+    .index {
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .index>ul>li {
+        display: inline;
+        color: #494b4f;
+        font-size: 12px;
+    }
+
+    .index>ul>li>a {
+        text-decoration: none;
+        color: #494b4f;
+        font-size: 12px;
+    }
+
+    .index>ul>li>img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description p {
+        color: #494b4f;
+        font-size: 1.6rem;
+        padding: 3% 0;
+    }
+
+
+}
